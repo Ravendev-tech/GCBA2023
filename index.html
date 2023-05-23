@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GCBA 2023</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+      <link rel="stylesheet" href="css/lightbox.css">
+
+    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <script src="js/lightslider.js"></script>
+      <script src="js/lightbox.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/default.css" />
+  		<link rel="stylesheet" type="text/css" href="css/multilevelmenu.css" />
+  		<link rel="stylesheet" type="text/css" href="css/component.css" />
+  		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+  		<script src="js/modernizr.custom.js"></script>
+
+  </head>
+  <body class="home" id="home">
+      <div class="loader">
+        <img src="img/balogo.svg" alt="" width="">
+      </div>
+      <div id="pt-main" class="pt-perspective">
+            <div class="pt-page pt-page-1 pt-page-current" id="page1">  <!-- The video -->
+                  <video autoplay muted loop id="myVideo">
+                    <source src="img/vidback.mp4" type="video/mp4">
+                  </video>
+
+                  <!-- Optional: some overlay text to describe the video -->
+                  <div class="camps">
+                    <div class="container page1" id="page11">
+                        <div class="row">
+                            <div class="col-lg-12 text-center logoba">
+                                <img src="img/balogo.svg" alt="" width="">
+                            </div>
+                        </div>
+                        <div class="row months" style="margin-top:40px">
+                            <div class="col-lg-2 text-center">
+                                <img src="img/enero.png" alt="" width="" onclick="gotoenero('bgenero2.jpg'); javascript:setval('enero')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/febrero.png" alt="" width="" onclick="gotofebrero('bgfebrero2.jpg'); javascript:setval('febrero')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/marzo.png" alt="" width="" onclick="gotomarzo('bgmarzo2.jpg'); javascript:setval('marzo')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/abril.png" alt="" width="" onclick="gotoabril('bgabril2.jpg'); javascript:setval('abril')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/mayo.png" alt="" width="" onclick="gotomayo('bgmayo2.jpg'); javascript:setval('mayo')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/junio.png" alt="" width="" onclick="gotojunio('bgjunio2.jpg'); javascript:setval('junio')">
+                            </div>
+                        </div>
+                        <div class="row months">
+                            <div class="col-lg-2 text-center">
+                                <img src="img/julio.png" alt="" width=""  onclick="gotojulio('bgjulio.jpg'); javascript:setval('julio')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/agosto.png" alt="" width=""  onclick="gotoagosto('bgagosto.jpg'); javascript:setval('agosto')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/septiembre.png" alt="" width="" onclick="gotoseptiembre('bgseptiembre.jpg'); javascript:setval('septiembre')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/octubre.png" alt="" width="" onclick="gotooctubre('bgoctubre.jpg'); javascript:setval('octubre')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/noviembre.png" alt="" width="" onclick="gotonoviembre('bgnoviembre.jpg'); javascript:setval('noviembre')">
+                            </div>
+                            <div class="col-lg-2 text-center">
+                                <img src="img/diciembre.png" alt="" width="" onclick="gotodiciembre('bgdiciembre.jpg'); javascript:setval('diciembre')">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="pt-page pt-page-2" id="enero">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverenero()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS ENERO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                        <div class="col-lg-2">
+                          <div class="campimg text-center"   onclick="step3('camp/enero/1/index.html','BA Playa')">
+                            <img src="camp/enero/1/img/portada.png" alt="" width="">
+                            <p class="subtitle"><span>BA Playa</span> </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="pt-page pt-page-2" id="febrero">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverfebrero()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS FEBRERO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="pt-page pt-page-2" id="marzo">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volvermarzo()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS MARZO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- ABRIL -->
+            <div class="pt-page pt-page-2" id="abril">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverabril()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS ABRIL 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN ABRIL -->
+
+            <!-- MAYO -->
+            <div class="pt-page pt-page-2" id="mayo">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volvermayo()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS MAYO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN MAYO -->
+
+
+
+            <!-- JUNIO -->
+            <div class="pt-page pt-page-2" id="junio">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverjunio()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS JUNIO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN JUNIO -->
+            <!-- JULIO -->
+            <div class="pt-page pt-page-2" id="julio">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverjulio()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS JULIO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN JULIO -->
+
+
+            <!-- AGOSTO -->
+            <div class="pt-page pt-page-2" id="agosto">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volveragosto()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS AGOSTO 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN AGOSTO -->
+
+
+            <!-- SEPTIEMBRE -->
+            <div class="pt-page pt-page-2" id="septiembre">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverseptiembre()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS SEPTIEMBRE 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN SEPTIEMBRE -->
+
+            <!-- octubre -->
+            <div class="pt-page pt-page-2" id="octubre">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volveroctubre()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS OCTUBRE 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- FIN octubre -->
+
+            <div class="pt-page pt-page-2" id="noviembre">
+              <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volvernoviembre()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS NOVIEMBRE 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="pt-page pt-page-2" id="diciembre">
+                <div class="overlay">
+                  <div class="container">
+                    <div class="headerback">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <a href="#" class="back" onclick="volverdiciembre()">⬅ VOLVER</a>
+                        </div>
+                        <div class="col-lg-4 text-center" style="color:#000">
+                          CAMPAÑAS DICIEMBRE 2023
+                        </div>
+                        <div class="col-lg-4">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row listcamp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+            <script>
+            var mysample = '';
+            function setval(varval)
+            {
+            	mysample= varval;
+            }
+
+            </script>
+
+
+
+            <div class="pt-page pt-page-3" id="page3">
+              <div class="overlay">
+                <div class="container">
+                  <div class="headerback">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <a href="#" class="back" onclick="volver2(mysample)">⬅ VOLVER</a>
+                      </div>
+                      <div class="col-lg-4 text-center"  id="titlecamp">
+                        CAMPAÑAS 2023
+                      </div>
+                      <div class="col-lg-4">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row listcamp">
+                    <iframe src="" width="" height="" id="iframepage2"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pt-page pt-page-4"><h1><span>A collection of</span><strong>Page</strong> PAGE 4</h1></div>
+            <div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> PAGE 5</h1></div>
+            <div class="pt-page pt-page-6"><h1><span>A collection of</span><strong>Page</strong> PAGE 6</h1></div>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/jquery.dlmenu.js"></script>
+      <script src="js/pagetransitions.js"></script>
+  </body>
+</html>
