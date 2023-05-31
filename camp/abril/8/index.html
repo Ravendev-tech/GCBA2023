@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/lightbox.css">
+    <link rel="stylesheet" href="../../../css/flexslider.css" type="text/css" media="screen" />
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/scripts.js"></script>
+    <script src="../../../js/lightbox.js"></script>
+    <script defer src="../../../js/jquery.flexslider-min.js"></script>
+
+    <script>
+        lightbox.option({
+              'resizeDuration': 200,
+              'wrapAround': true
+            })
+    </script>
+
+  </head>
+  <body class="bgtransparent">
+
+    <div class="headercampain">
+      <div class="">
+        Objetivo de comunicación:
+      </div>
+      <p class="font12">
+        <!-- DESCRIPCION DE LA CAMPAÑA -->
+        Visibilizar el talento femenino,promover políticas de igualdad de género, contribuir al fortalecimiento de la autonomía económica de las mujeres y empoderarlas en puestos de liderazgo.
+      </p>
+    </div>
+
+    <div class="contentcampain">
+      <div class="">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="#" onclick="volver2()"><img class="back" src="img/volver.png" alt=""> </a>
+            <div class="accordion" id="accordion">
+              <!------------->
+              <!------------->
+              <!-- MASIVA -->
+              <!------------->
+              <!------------->
+                <div class="card displaynone">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Masiva
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseOne" class="show " aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="menuoptions">
+                        <!-- ACTIVA O DESACTIVA LAS OPCIONES DISPONIBLES EN EL MENU USAR LA CLASE displaynone -->
+                        <li class=""><input checked type="radio" name="pieceoption" id="aire" onclick="view()" value="aire"><label for="aire">Aire</label></li>
+                        <li class="displaynone"><input type="radio" name="pieceoption"  id="capsula" onclick="view()" value="capsula"><label for="capsula">Cápsula - de 15”</label> </li>
+                        <li class=""><input type="radio" name="pieceoption"  id="zocalos" onclick="view()" value="zocalos"><label for="zocalos">Zócalos</label> </li>
+                        <li class=""><input type="radio" name="pieceoption"  id="graficasdiarios" onclick="view()" value="graficasdiarios"><label for="graficasdiarios">Gráfica Diarios <br> y Revistas</label> </li>
+                        <!-- FIN ACTIVA O DESACTIVA LAS OPCIONES DISPONIBLES EN EL MENU -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              <!------------->
+              <!------------->
+              <!-- VIA PUBLICA -->
+              <!------------->
+              <!------------->
+              <div class="card displaynone">
+                <div class="card-header" id="mvp">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                      Vía pública
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="show" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul class="menuoptions">
+                      <!-- ACTIVA O DESACTIVA LAS OPCIONES DISPONIBLES EN EL MENU USAR LA CLASE displaynone -->
+                      <li class="displaynone"><input type="radio" name="pieceoption"  id="graficascpm" onclick="view()" value="graficascpm" ><label for="graficascpm">Gráficas - CPM y Séxtuples</label></li>
+                      <li class=""><input type="radio" name="pieceoption" id="pantallas" onclick="view()" value="pantallas"><label for="pantallas">Pantallas</label> </li>
+                      <!-- FIN ACTIVA O DESACTIVA LAS OPCIONES DISPONIBLES EN EL MENU -->
+                    </ul>
+                  </div>
+                </div>
+                <div id="menuviapublica" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                </div>
+              </div>
+              <!------------->
+              <!------------->
+              <!-- DIGITAL -->
+              <!------------->
+              <!------------->
+              <div class="card ">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Digital
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="show" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul class="menuoptions">
+                      <!-- ACTIVA O DESACTIVA LAS OPCIONES DISPONIBLES EN EL MENU USAR LA CLASE displaynone -->
+                      <li class=""><input type="radio" name="pieceoption" id="banner" onclick="view()" value="banner"><label for="banner">Banner</label> </li>
+                      <li class=""><input type="radio" name="pieceoption" id="redes" onclick="view()" value="redes"><label for="redes">Redes</label> </li>
+                      <li class=""><input type="radio" name="pieceoption"  id="directa" onclick="view()" value="directa"><label for="directa">Directa</label> </li>
+                      <!-- FIN ACTIVA O DESACTIVA LAS OPCIONES DISPONIBLES EN EL MENU -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!------------->
+              <!------------->
+                </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div class="col-lg-9 text-center">
+
+            <!--SECCION BANNER-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces banner ">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><a class="" href="digital/banner/1.png" data-lightbox="3"><img src="digital/banner/1.png" /></a><a href="digital/banner/1.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+
+            <!--SECCION PANTALLAS-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces pantallas hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><video controls><source src="viapublica/pantallas/1.mp4" type="video/mp4"></video><a href="viapublica/pantallas/1.mp4" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span></p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+            
+            <!--SECCION AIRE-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces aire hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><video controls><source src="masiva/aire/1.mp4" type="video/mp4"></video><a href="masiva/aire/1.mp4" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span></p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+
+            <!--SECCION CAPSULA-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces capsula hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><video controls><source src="masiva/capsula/1.mp4" type="video/mp4"></video><a href="masiva/capsula/1.mp4" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span></p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+
+            <!--SECCION ZOCALOS-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces zocalos hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><video controls><source src="masiva/zocalos/1.mp4" type="video/mp4"></video><a href="masiva/zocalos/1.mp4" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span></p></a></li>
+                    <li><video controls><source src="masiva/zocalos/2.mp4" type="video/mp4"></video><a href="masiva/zocalos/2.mp4" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span></p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+            <!--SECCION GRAFICAS DIARIOS Y REVISTAS-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces graficasdiarios hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                      <li><a class="" href="masiva/graficasdiarios/1.png" data-lightbox="3"><img src="masiva/graficasdiarios/1.png" /></a><a href="masiva/graficasdiarios/1.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                      <li><a class="" href="masiva/graficasdiarios/2.png" data-lightbox="3"><img src="masiva/graficasdiarios/2.png" /></a><a href="masiva/graficasdiarios/2.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+            <!--SECCION GRAFICAS CPM Y SEXTUPLES-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces graficascpm hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                       <li><a class="" href="viapublica/graficascpm/1.png" data-lightbox="3"><img src="viapublica/graficascpm/1.png" /></a><a href="viapublica/graficascpm/1.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                       <li><a class="" href="viapublica/graficascpm/2.png" data-lightbox="3"><img src="viapublica/graficascpm/2.png" /></a><a href="viapublica/graficascpm/2.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+
+            <!--SECCION REDES-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces redes hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><a class="" href="digital/redes/1.png" data-lightbox="3"><img src="digital/redes/1.png" /></a><a href="digital/redes/1.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/2.png" data-lightbox="3"><img src="digital/redes/2.png" /></a><a href="digital/redes/2.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/3.png" data-lightbox="3"><img src="digital/redes/3.png" /></a><a href="digital/redes/3.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/4.png" data-lightbox="3"><img src="digital/redes/4.png" /></a><a href="digital/redes/4.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/5.png" data-lightbox="3"><img src="digital/redes/5.png" /></a><a href="digital/redes/5.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/6.png" data-lightbox="3"><img src="digital/redes/6.png" /></a><a href="digital/redes/6.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/7.png" data-lightbox="3"><img src="digital/redes/7.png" /></a><a href="digital/redes/7.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/8.png" data-lightbox="3"><img src="digital/redes/8.png" /></a><a href="digital/redes/8.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/9.png" data-lightbox="3"><img src="digital/redes/9.png" /></a><a href="digital/redes/9.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/redes/10.png" data-lightbox="3"><img src="digital/redes/10.png" /></a><a href="digital/redes/10.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+            <!--SECCION DIRECTA-->
+            <!---------------->
+            <!---------------->
+            <div class="pieces directa hidden">
+              <div class="flexslider">
+                <ul class="slides">
+                    <!-- SLIDE -->
+                    <li><a class="" href="digital/directa/1.png" data-lightbox="3"><img src="digital/directa/1.png" /></a><a href="digital/directa/1.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/directa/2.png" data-lightbox="3"><img src="digital/directa/2.png" /></a><a href="digital/directa/2.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/directa/3.png" data-lightbox="3"><img src="digital/directa/3.png" /></a><a href="digital/directa/3.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <li><a class="" href="digital/directa/4.png" data-lightbox="3"><img src="digital/directa/4.png" /></a><a href="digital/directa/4.png" download="PIEZA" target="_blank" ><p>DESCARGAR PIEZA <span class="download">⇩</span> </p></a></li>
+                    <!-- SLIDE -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  </script>
+
+  <script>
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    animation: "slide",
+    touch: true,
+    });
+  });
+  </script>
+
+
+  <script>
+
+  $( document ).ready(function() {
+
+    setTimeout(function () {
+      $(".flex-next , .flex-prev").click(function(){
+        $('.video').each(function() {
+           $(this).get(0).pause();
+       });
+     });
+   }, 2000);
+
+
+
+  });
+  </script>
+
+
+  </body>
+</html>
